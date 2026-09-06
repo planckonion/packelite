@@ -219,7 +219,9 @@
     background-position: -150% 0;
   }
 }
-
+#lovable-badge { 
+  display: none !important; 
+}
 @keyframes float-particle {
   0%,
   100% {
