@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { Check, Infinity as InfinityIcon, RefreshCw, Smartphone, Star, Zap } from "lucide-react";
 import { CtaButton, Reveal, SectionTitle } from "./shared";
 

@@ -1,4 +1,4 @@
-import { motion, useMotionValueEvent, useScroll } from "framer-motion";
+import { motion, useMotionValueEvent, useScroll } from "motion/react";
 import { useState } from "react";
 import { CHECKOUT_URL } from "./shared";
 

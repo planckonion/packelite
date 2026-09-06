@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import type { ReactNode } from "react";
 
 export const CHECKOUT_URL = "https://pay.cakto.com.br/3fmhdqr_1089720";
