@@ -1,6 +1,7 @@
 import { motion, useMotionValueEvent, useScroll } from "motion/react";
 import { useState } from "react";
 import { CHECKOUT_URL } from "./shared";
+import logo from "@/assets/pack-elite-logo.png.asset.json";
 
 export function Navbar() {
   const { scrollY } = useScroll();
@@ -18,8 +19,11 @@ export function Navbar() {
       className="border-border/60 fixed inset-x-0 top-0 z-50 border-b bg-[rgba(10,10,10,0.95)] backdrop-blur-md"
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <span className="font-display text-primary text-2xl tracking-wide sm:text-3xl">
-          PACK COMPLETO
+        <span className="flex items-center gap-2">
+          <img src={logo.url} alt="Logo Pack Elite" className="h-9 w-9 rounded-full" />
+          <span className="font-display text-primary text-2xl tracking-wide sm:text-3xl">
+            PACK ELITE
+          </span>
         </span>
         <a
           href={CHECKOUT_URL}
