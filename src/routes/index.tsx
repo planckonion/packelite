@@ -11,7 +11,7 @@ import {
   SocialProof,
 } from "@/components/landing/Sections";
 
-const title = "Pack Completo Digital — +230GB por R$19,90";
+const title = "Pack Elite — +230GB de conteúdo digital por R$19,90";
 const description =
   "+230GB de conteúdo digital premium: CapCut, 3.000 vídeos Shopee, 60.000 vídeos virais e 600 projetos em metalon. Use ou revenda. Entrega imediata.";
 

@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Check, Infinity as InfinityIcon, ShieldCheck, Smartphone, Star, Zap } from "lucide-react";
 import { CtaButton, Reveal, SectionTitle } from "./shared";
+import logo from "@/assets/pack-elite-logo.png.asset.json";
 
 /* ---------------- Seção 2 — prova social ---------------- */
 
@@ -336,9 +337,26 @@ export function Footer() {
       className="text-muted-foreground px-4 py-10 text-center text-xs"
       style={{ backgroundColor: "#080808" }}
     >
-      <p>© 2025 Pack Completo Digital — Todos os direitos reservados</p>
-      <p className="mt-1">
-        Produto digital. Entrega automática após confirmação do pagamento.
+      <div className="flex items-center justify-center gap-2">
+        <img src={logo.url} alt="Logo Pack Elite" className="h-8 w-8 rounded-full" />
+        <span className="font-display text-primary text-xl tracking-wide">PACK ELITE</span>
+      </div>
+      <p className="mt-3">© 2026 Pack Elite — Todos os direitos reservados</p>
+      <p className="mt-1">Produto digital. Entrega automática após confirmação do pagamento.</p>
+      <nav className="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
+        <a href="/politica-de-privacidade" className="hover:text-primary underline-offset-2 transition-colors hover:underline">
+          Política de Privacidade
+        </a>
+        <a href="/termos-de-uso" className="hover:text-primary underline-offset-2 transition-colors hover:underline">
+          Termos de Uso
+        </a>
+        <a href="/politica-de-reembolso" className="hover:text-primary underline-offset-2 transition-colors hover:underline">
+          Política de Reembolso
+        </a>
+      </nav>
+      <p className="mx-auto mt-4 max-w-xl leading-relaxed opacity-70">
+        Este site não é afiliado ao Facebook, Instagram, Meta ou Google. Os resultados mencionados
+        são estimativas e variam de pessoa para pessoa; não garantimos ganhos financeiros.
       </p>
     </footer>
   );
