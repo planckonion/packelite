@@ -17,7 +17,7 @@ export function CtaButton({
       rel="noopener noreferrer"
       whileHover={{ scale: 1.03 }}
       whileTap={{ scale: 0.97 }}
-      className={`shimmer shadow-gold bg-gradient-gold flex min-h-[56px] w-full items-center justify-center rounded-2xl px-6 text-center text-[17px] font-extrabold tracking-wide text-black uppercase sm:text-lg ${className}`}
+      className={`shimmer pulse-glow shadow-gold bg-gradient-gold flex min-h-[56px] w-full items-center justify-center rounded-2xl px-6 text-center text-[17px] font-extrabold tracking-wide text-black uppercase sm:text-lg ${className}`}
     >
       {label}
     </motion.a>
