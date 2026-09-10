@@ -354,10 +354,6 @@ export function Footer() {
           Política de Reembolso
         </a>
       </nav>
-      <p className="mx-auto mt-4 max-w-xl leading-relaxed opacity-70">
-        Este site não é afiliado ao Facebook, Instagram, Meta ou Google. Os resultados mencionados
-        são estimativas e variam de pessoa para pessoa; não garantimos ganhos financeiros.
-      </p>
     </footer>
   );
 }
