@@ -222,6 +222,20 @@
 #lovable-badge { 
   display: none !important; 
 }
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(255, 215, 0, 0.45);
+  }
+  50% {
+    box-shadow: 0 0 24px 8px rgba(255, 215, 0, 0.2);
+  }
+}
+
+@utility pulse-glow {
+  animation: pulse-glow 2.2s ease-in-out infinite;
+}
+
 @keyframes float-particle {
   0%,
   100% {
