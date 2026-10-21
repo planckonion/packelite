@@ -31,7 +31,7 @@ export function Navbar() {
           rel="noopener noreferrer"
           className="border-primary text-primary hover:bg-primary hover:text-primary-foreground flex min-h-[44px] items-center rounded-xl border px-4 text-xs font-bold tracking-wider uppercase transition-colors"
         >
-          Comprar — R$19,90
+          Comprar — R$87
         </a>
       </nav>
     </motion.header>

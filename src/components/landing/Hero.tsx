@@ -92,8 +92,8 @@ export function Hero() {
             <Zap className="text-primary h-4 w-4" /> Entrega automática e imediata após o pagamento
           </p>
           <div className="mt-6 flex items-baseline justify-center gap-3">
-            <span className="text-muted-foreground text-lg line-through">De R$97,00</span>
-            <span className="font-display text-primary text-5xl">R$19,90</span>
+            <span className="text-muted-foreground text-lg line-through">De R$197</span>
+            <span className="font-display text-primary text-5xl">R$87</span>
           </div>
         </motion.div>
       </div>
