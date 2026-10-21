@@ -173,7 +173,7 @@ export function Profit() {
               <span className="text-4xl">💰</span>
               <h3 className="font-display text-primary mt-3 text-3xl">Revenda e lucre</h3>
               <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
-                Compre por R$19,90 e revenda cada produto separadamente ou o pack completo.
+                Compre por R$87 e revenda cada produto separadamente ou o pack completo.
                 Afiliados e criadores relatam de R$3.000 a R$10.000/mês revendendo packs como esse
                 com estratégias simples de tráfego no Instagram e TikTok.
               </p>
@@ -237,7 +237,7 @@ export function Bonus() {
 
 const STEPS = [
   { title: "Clique em “Comprar”", text: "Você é redirecionado para o checkout seguro" },
-  { title: "Confirme o pagamento", text: "R$19,90 — PIX, cartão ou boleto" },
+  { title: "Confirme o pagamento", text: "R$87 — PIX, cartão" },
   { title: "Acesso imediato", text: "Receba o link do pack na hora, sem espera" },
 ];
 
@@ -307,7 +307,7 @@ export function FinalCta() {
             Não perca essa oportunidade
           </h2>
           <p className="text-foreground/90 mt-4 text-sm">
-            Por apenas <span className="text-primary font-bold">R$19,90</span> você tem acesso a:
+            Por apenas <span className="text-primary font-bold">R$87</span> você tem acesso a:
           </p>
           <ul className="mx-auto mt-4 space-y-2 text-left">
             {INCLUDED.map((item) => (
@@ -318,7 +318,7 @@ export function FinalCta() {
             ))}
           </ul>
           <div className="mt-8">
-            <CtaButton label="Quero o pack agora — R$19,90" />
+            <CtaButton label="Quero o pack agora — R$87" />
           </div>
           <p className="text-muted-foreground mt-4 text-xs">
             ⚡ Entrega automática • ♾️ Acesso vitalício • 🔒 Compra 100% segura

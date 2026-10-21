@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import type { ReactNode } from "react";
 
-export const CHECKOUT_URL = "https://pay.cakto.com.br/3fmhdqr_1089720";
+export const CHECKOUT_URL = "https://checkout.wiven.com.br/checkout/cmvhesl260kgt01pwzempqr73?offer=4UF3HX5";
 
 export function CtaButton({
   label = "QUERO O PACK AGORA",
